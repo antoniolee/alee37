@@ -1,0 +1,30 @@
+body
+{
+    background-color:Khaki;
+}
+
+p1
+{
+	font-size:20pt;
+}
+
+.Khaki
+{
+   color:Khaki;
+   font-size:16pt;
+}
+
+.border
+{
+    border: 5px solid Khaki;padding:15px;
+}
+
+div
+{
+}
+
+canvas
+{
+	background-color:Black;
+	border: 5px solid Red;
+}

@@ -1,0 +1,30 @@
+<html>
+      	<head>
+              	<title> Antonio's Page </title>
+        </head>
+
+        <body>
+	<h1> Antonio Lee's Homepage</h1>
+
+        <ul>
+		<li><a href="week1.html">week one</a></li>
+		<li><a href="week2.html">week two</a></li>
+		<li><a href="week3.html">week three</a></li>
+		<li><a href="week4.html">week four</a></li>
+		<li><a href="week5.html">week five</a></li>
+		<li><a href="week6.html">week six</a></li>
+        </ul>
+
+	
+			
+	<img src="media/siberian_huskies-12930.jpg"/>
+	
+
+        </body>
+
+
+
+
+
+</html>
+

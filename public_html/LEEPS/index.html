@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+      	<head>
+        <title> Antonio's Page </title>
+		<link rel="stylesheet" type = "text/css" href="styles.css"/>
+		<link rel="stylesheet" type = "text/css" href= "/bootstrap/css/bootstrap.css"/>
+		<script src = "jquery-1.9.1.js"></script>
+		<script>
+			$(document).ready(function(){
+				$("#reset").on("click", function(){
+					context.clearRect(0, 0, canvasWidth, canvasHeight);
+					var particles = particleArray.length;
+					for(var i = 0; i < particles; i++) particleArray.pop();
+					strobeBool = 0;
+					addParticles(20);
+				});
+				$("#myCanvas").on("click", function(e){
+					$('#mousePos').html(e.pageX +', '+ e.pageY);
+					var mX = e.pageX-10;
+					var mY = e.pageY-150;
+					var p = new Particle;
+					p.x = mX;
+					p.y = mY;
+					addParticles(p);
+					particleArray.push(p);
+				});
+				$("#strobeOn").on("click", function(){
+					strobeBool = 1; 
+				});
+				$("#strobeOff").on("click", function(){
+					strobeBool = 0;
+				});
+
+				var strobeBool = 0;
+				var canvas;
+				var canvasWidth;
+				var canvasHeight;
+				var context;
+				var particleArray = [];
+				var mouseX;
+				var mouseY;
+				
+				canvas = document.getElementById('myCanvas');
+				canvasWidth = 600;
+				canvasHeight = 400;
+				context = canvas.getContext('2d');
+	
+				canvas.width = canvasWidth;
+				canvas.height = canvasHeight;
+
+				Math.nRandom = function(){
+					return Math.random() * 2 - 1; // Create random postive/negative numbers
+				};
+				
+				var Particle = function(){
+					this.x = Math.random() * canvasWidth;
+					this.y = Math.random() * canvasHeight;
+					this.vx = Math.nRandom() * 20;
+					this.vy = Math.nRandom() * 20;
+					this.r = Math.random() * 10 + 10;
+					this.vel = 0.05;
+					
+					var color = 'hsl(' + Math.floor(Math.random() * 360) + ',100%, 50%)';
+
+					this.draw = function(){
+						context.beginPath();
+						var gradient = context.createRadialGradient(this.x,this.y,0,this.x,this.y,this.r);
+						gradient.addColorStop(0.1,"white");
+						gradient.addColorStop(0.3,color);
+						gradient.addColorStop(1,"black");
+						context.fillStyle = gradient;
+						context.arc(this.x, this.y, this.r, 0, Math.PI * 2, false);
+						context.closePath();
+						context.fill();
+					};
+					
+					this.wallCollision = function(){
+						if (this.x < this.r-1) { this.x = this.r-1; this.vx *= -1; bool = 1;};
+						if (this.y < this.r-1) { this.y = this.r-1; this.vy *= -1; bool = 1;};
+						if (this.x > canvasWidth-this.r+1) {
+							this.x = canvasWidth-this.r+1;
+							this.vx *= -1;;
+						};
+						if (this.y > canvasHeight-this.r+1){
+							this.y = canvasHeight-this.r+1;
+							this.vy *= -1;
+						};
+					};
+					
+					this.ballCollision = function(){
+						for(var i = 0; i < particleArray.length; i++){
+							var otherBall = particleArray[i];
+							if(this != otherBall){
+								var dx = this.x - otherBall.x;
+								var dy = this.y - otherBall.y;
+								var distance = Math.sqrt(dx*dx + dy*dy);
+								if(distance > 0){
+									var angle = Math.atan2(dy,dx);
+									var cosA = Math.cos(angle);
+									var sinA = Math.sin(angle);
+									var radius = this.r + otherBall.r;
+									var diff = radius - distance;
+									var cosDiff = (cosA * diff);
+									var sinDiff = (sinA * diff);
+									if(distance < radius){
+										color = 'hsl(' + Math.floor(Math.random() * 360) + ',100%, 50%)';
+										this.vx += cosDiff;
+										this.vy += sinDiff;
+										otherBall.vx -= cosDiff;
+										otherBall.vy -= sinDiff;
+									}
+								}
+							}
+						}
+					};
+
+					this.update = function(){
+						if(strobeBool == 1){
+							color = 'hsl(' + Math.floor(Math.random() * 360) + ',100%, 50%)';
+						};
+						this.x += this.vx * this.vel;
+						this.y += this.vy * this.vel;
+						this.wallCollision();
+						this.ballCollision();
+					};
+				};
+				
+				function addParticles(nmbr){
+					if(nmbr == 1){
+						var p = new Particle();
+						p.x = canvasWidth/2;
+						p.y = canvasHeight/2;
+						particleArray.push(p);
+					};
+					for(var i = 0; i < nmbr; i++){
+						var p = new Particle;
+						particleArray.push(p);			
+					};
+				};
+				
+				addParticles(20);
+				setInterval(function(){
+					context.globalCompositeOperation = "source-over";
+					context.fillStyle = "rgba(0,0,0,0.25)";
+					context.fillRect(0, 0, canvasWidth, canvasHeight);
+					if(strobeBool == 0) context.globalCompositeOperation = "lighter";
+				},33);
+				setInterval(function(){
+					for(var i = 0; i < particleArray.length; i++) particleArray[i].draw();
+					for(var i = 0; i < particleArray.length; i++) particleArray[i].update();
+				});
+			});
+		</script>
+        </head>
+
+        <body>
+		<h1> LEEPS Programming Assignment</h1>
+		<p1> JQuery Particle System </p1> <br>
+		<p2> ** Particles change color when collidiing with other particles ** <br>
+			** Click anywhere on the canvas to spawn a particle at mousePos **<br>
+		</p2> 
+		<canvas id = "myCanvas"></canvas> <br>
+		<button id = "reset">Reset Simulation</button>
+		<button id= "strobeOn">Color Strobe On</button>
+		<button id= "strobeOff">Color Strobe Off</button>
+		<input type = "button" value="Back to homepage" onClick="parent.location='http://people.ucsc.edu/~alee37/'">
+        </body>
+</html>

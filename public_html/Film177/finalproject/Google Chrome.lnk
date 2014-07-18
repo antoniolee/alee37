@@ -1,0 +1,2666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<korsakow versionMajor="5.0.6.1" versionMinor="24.14">
+    <projects>
+        <Project>
+            <id><![CDATA[82]]></id>
+            <version><![CDATA[5]]></version>
+            <name><![CDATA[Whats Organic]]></name>
+            <settingsId><![CDATA[1]]></settingsId>
+            <movieWidth><![CDATA[1024]]></movieWidth>
+            <movieHeight><![CDATA[768]]></movieHeight>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[true]]></backgroundSoundLooping>
+            <clickSoundVolume><![CDATA[1.0]]></clickSoundVolume>
+            <backgroundColor><![CDATA[#000000]]></backgroundColor>
+            <splashScreenMediaId><![CDATA[563]]></splashScreenMediaId>
+            <randomLinkMode><![CDATA[false]]></randomLinkMode>
+            <keepLinksOnEmptySearch><![CDATA[false]]></keepLinksOnEmptySearch>
+            <defaultInterface><![CDATA[6]]></defaultInterface>
+            <uuid><![CDATA[d6010b3c-6ffe-48f7-b35f-c8a9b64c60e5]]></uuid>
+        </Project>
+    </projects>
+    <settings>
+        <Settings>
+            <id><![CDATA[1]]></id>
+            <version><![CDATA[3]]></version>
+            <exportFonts dynamic="true"><![CDATA[false]]></exportFonts>
+            <putSimilarResourcesAtTop dynamic="true"><![CDATA[true]]></putSimilarResourcesAtTop>
+            <showBackgroundPreviewInInterface dynamic="true"><![CDATA[true]]></showBackgroundPreviewInInterface>
+            <showExperimentalWidgets dynamic="true"><![CDATA[false]]></showExperimentalWidgets>
+            <videoEncodingProfile dynamic="true"><![CDATA[flv_high]]></videoEncodingProfile>
+            <adjustFilenamesOnSave dynamic="true"><![CDATA[smart]]></adjustFilenamesOnSave>
+            <encodeVideoOnExport dynamic="true"><![CDATA[true]]></encodeVideoOnExport>
+        </Settings>
+    </settings>
+    <interfaces>
+        <Interface>
+            <id><![CDATA[6]]></id>
+            <version><![CDATA[1]]></version>
+            <name><![CDATA[4x3 - 3 Below]]></name>
+            <gridWidth><![CDATA[8]]></gridWidth>
+            <gridHeight><![CDATA[6]]></gridHeight>
+            <clickSoundVolume><![CDATA[1.0]]></clickSoundVolume>
+            <widgets>
+                <Widget>
+                    <id><![CDATA[2]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.MainMedia]]></widgetType>
+                    <persistCondition><![CDATA[never]]></persistCondition>
+                    <persistAction><![CDATA[replace]]></persistAction>
+                    <x><![CDATA[192]]></x>
+                    <y><![CDATA[60]]></y>
+                    <width><![CDATA[640]]></width>
+                    <height><![CDATA[480]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[scaledownmaintainaspectratio]]></scalingPolicy>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[3]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.SnuAutoLink]]></widgetType>
+                    <persistCondition><![CDATA[never]]></persistCondition>
+                    <persistAction><![CDATA[replace]]></persistAction>
+                    <x><![CDATA[192]]></x>
+                    <y><![CDATA[552]]></y>
+                    <width><![CDATA[208]]></width>
+                    <height><![CDATA[156]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[maintainaspectratio]]></scalingPolicy>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <index dynamic="true"><![CDATA[0]]></index>
+                    <fontColor dynamic="true"><![CDATA[#FFFFFF]]></fontColor>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <previewTextMode dynamic="true"><![CDATA[always]]></previewTextMode>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <previewTextEffect dynamic="true"><![CDATA[none]]></previewTextEffect>
+                    <fontFamily dynamic="true"><![CDATA[Arial]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[10]]></fontSize>
+                    <horizontalTextAlignment dynamic="true"><![CDATA[left]]></horizontalTextAlignment>
+                    <verticalTextAlignment dynamic="true"><![CDATA[top]]></verticalTextAlignment>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[4]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.SnuAutoLink]]></widgetType>
+                    <persistCondition><![CDATA[never]]></persistCondition>
+                    <persistAction><![CDATA[replace]]></persistAction>
+                    <x><![CDATA[408]]></x>
+                    <y><![CDATA[552]]></y>
+                    <width><![CDATA[208]]></width>
+                    <height><![CDATA[156]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[maintainaspectratio]]></scalingPolicy>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <index dynamic="true"><![CDATA[1]]></index>
+                    <fontColor dynamic="true"><![CDATA[#FFFFFF]]></fontColor>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <previewTextMode dynamic="true"><![CDATA[always]]></previewTextMode>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <previewTextEffect dynamic="true"><![CDATA[none]]></previewTextEffect>
+                    <fontFamily dynamic="true"><![CDATA[Arial]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[10]]></fontSize>
+                    <horizontalTextAlignment dynamic="true"><![CDATA[left]]></horizontalTextAlignment>
+                    <verticalTextAlignment dynamic="true"><![CDATA[top]]></verticalTextAlignment>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[5]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.SnuAutoLink]]></widgetType>
+                    <persistCondition><![CDATA[never]]></persistCondition>
+                    <persistAction><![CDATA[replace]]></persistAction>
+                    <x><![CDATA[624]]></x>
+                    <y><![CDATA[552]]></y>
+                    <width><![CDATA[208]]></width>
+                    <height><![CDATA[156]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[maintainaspectratio]]></scalingPolicy>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <index dynamic="true"><![CDATA[2]]></index>
+                    <fontColor dynamic="true"><![CDATA[#FFFFFF]]></fontColor>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <previewTextMode dynamic="true"><![CDATA[always]]></previewTextMode>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <previewTextEffect dynamic="true"><![CDATA[none]]></previewTextEffect>
+                    <fontFamily dynamic="true"><![CDATA[Arial]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[10]]></fontSize>
+                    <horizontalTextAlignment dynamic="true"><![CDATA[left]]></horizontalTextAlignment>
+                    <verticalTextAlignment dynamic="true"><![CDATA[top]]></verticalTextAlignment>
+                </Widget>
+            </widgets>
+        </Interface>
+        <Interface>
+            <id><![CDATA[26]]></id>
+            <version><![CDATA[1]]></version>
+            <name><![CDATA[16x9 - 3 Below]]></name>
+            <gridWidth><![CDATA[16]]></gridWidth>
+            <gridHeight><![CDATA[9]]></gridHeight>
+            <clickSoundVolume><![CDATA[1.0]]></clickSoundVolume>
+            <widgets>
+                <Widget>
+                    <id><![CDATA[22]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.MainMedia]]></widgetType>
+                    <persistCondition><![CDATA[never]]></persistCondition>
+                    <persistAction><![CDATA[replace]]></persistAction>
+                    <x><![CDATA[152]]></x>
+                    <y><![CDATA[114]]></y>
+                    <width><![CDATA[720]]></width>
+                    <height><![CDATA[405]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[scaledownmaintainaspectratio]]></scalingPolicy>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[23]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.SnuAutoLink]]></widgetType>
+                    <persistCondition><![CDATA[never]]></persistCondition>
+                    <persistAction><![CDATA[replace]]></persistAction>
+                    <x><![CDATA[152]]></x>
+                    <y><![CDATA[519]]></y>
+                    <width><![CDATA[240]]></width>
+                    <height><![CDATA[135]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[maintainaspectratio]]></scalingPolicy>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <index dynamic="true"><![CDATA[0]]></index>
+                    <fontColor dynamic="true"><![CDATA[#FFFFFF]]></fontColor>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <previewTextMode dynamic="true"><![CDATA[always]]></previewTextMode>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <previewTextEffect dynamic="true"><![CDATA[none]]></previewTextEffect>
+                    <fontFamily dynamic="true"><![CDATA[Arial]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[10]]></fontSize>
+                    <horizontalTextAlignment dynamic="true"><![CDATA[left]]></horizontalTextAlignment>
+                    <verticalTextAlignment dynamic="true"><![CDATA[top]]></verticalTextAlignment>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[24]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.SnuAutoLink]]></widgetType>
+                    <persistCondition><![CDATA[never]]></persistCondition>
+                    <persistAction><![CDATA[replace]]></persistAction>
+                    <x><![CDATA[392]]></x>
+                    <y><![CDATA[519]]></y>
+                    <width><![CDATA[240]]></width>
+                    <height><![CDATA[135]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[maintainaspectratio]]></scalingPolicy>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <index dynamic="true"><![CDATA[1]]></index>
+                    <fontColor dynamic="true"><![CDATA[#FFFFFF]]></fontColor>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <previewTextMode dynamic="true"><![CDATA[always]]></previewTextMode>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <previewTextEffect dynamic="true"><![CDATA[none]]></previewTextEffect>
+                    <fontFamily dynamic="true"><![CDATA[Arial]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[10]]></fontSize>
+                    <horizontalTextAlignment dynamic="true"><![CDATA[left]]></horizontalTextAlignment>
+                    <verticalTextAlignment dynamic="true"><![CDATA[top]]></verticalTextAlignment>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[25]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.SnuAutoLink]]></widgetType>
+                    <persistCondition><![CDATA[never]]></persistCondition>
+                    <persistAction><![CDATA[replace]]></persistAction>
+                    <x><![CDATA[632]]></x>
+                    <y><![CDATA[519]]></y>
+                    <width><![CDATA[240]]></width>
+                    <height><![CDATA[135]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[maintainaspectratio]]></scalingPolicy>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <index dynamic="true"><![CDATA[2]]></index>
+                    <fontColor dynamic="true"><![CDATA[#FFFFFF]]></fontColor>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <previewTextMode dynamic="true"><![CDATA[always]]></previewTextMode>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <previewTextEffect dynamic="true"><![CDATA[none]]></previewTextEffect>
+                    <fontFamily dynamic="true"><![CDATA[Arial]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[10]]></fontSize>
+                    <horizontalTextAlignment dynamic="true"><![CDATA[left]]></horizontalTextAlignment>
+                    <verticalTextAlignment dynamic="true"><![CDATA[top]]></verticalTextAlignment>
+                </Widget>
+            </widgets>
+        </Interface>
+        <Interface>
+            <id><![CDATA[31]]></id>
+            <version><![CDATA[1]]></version>
+            <name><![CDATA[16x9 - 3 Above]]></name>
+            <gridWidth><![CDATA[16]]></gridWidth>
+            <gridHeight><![CDATA[9]]></gridHeight>
+            <clickSoundVolume><![CDATA[1.0]]></clickSoundVolume>
+            <widgets>
+                <Widget>
+                    <id><![CDATA[27]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.MainMedia]]></widgetType>
+                    <persistCondition><![CDATA[never]]></persistCondition>
+                    <persistAction><![CDATA[replace]]></persistAction>
+                    <x><![CDATA[152]]></x>
+                    <y><![CDATA[249]]></y>
+                    <width><![CDATA[720]]></width>
+                    <height><![CDATA[405]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[scaledownmaintainaspectratio]]></scalingPolicy>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[28]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.SnuAutoLink]]></widgetType>
+                    <persistCondition><![CDATA[never]]></persistCondition>
+                    <persistAction><![CDATA[replace]]></persistAction>
+                    <x><![CDATA[152]]></x>
+                    <y><![CDATA[114]]></y>
+                    <width><![CDATA[240]]></width>
+                    <height><![CDATA[135]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[maintainaspectratio]]></scalingPolicy>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <index dynamic="true"><![CDATA[0]]></index>
+                    <fontColor dynamic="true"><![CDATA[#FFFFFF]]></fontColor>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <previewTextMode dynamic="true"><![CDATA[always]]></previewTextMode>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <previewTextEffect dynamic="true"><![CDATA[none]]></previewTextEffect>
+                    <fontFamily dynamic="true"><![CDATA[Arial]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[10]]></fontSize>
+                    <horizontalTextAlignment dynamic="true"><![CDATA[left]]></horizontalTextAlignment>
+                    <verticalTextAlignment dynamic="true"><![CDATA[top]]></verticalTextAlignment>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[29]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.SnuAutoLink]]></widgetType>
+                    <persistCondition><![CDATA[never]]></persistCondition>
+                    <persistAction><![CDATA[replace]]></persistAction>
+                    <x><![CDATA[392]]></x>
+                    <y><![CDATA[114]]></y>
+                    <width><![CDATA[240]]></width>
+                    <height><![CDATA[135]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[maintainaspectratio]]></scalingPolicy>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <index dynamic="true"><![CDATA[1]]></index>
+                    <fontColor dynamic="true"><![CDATA[#FFFFFF]]></fontColor>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <previewTextMode dynamic="true"><![CDATA[always]]></previewTextMode>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <previewTextEffect dynamic="true"><![CDATA[none]]></previewTextEffect>
+                    <fontFamily dynamic="true"><![CDATA[Arial]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[10]]></fontSize>
+                    <horizontalTextAlignment dynamic="true"><![CDATA[left]]></horizontalTextAlignment>
+                    <verticalTextAlignment dynamic="true"><![CDATA[top]]></verticalTextAlignment>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[30]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.SnuAutoLink]]></widgetType>
+                    <persistCondition><![CDATA[never]]></persistCondition>
+                    <persistAction><![CDATA[replace]]></persistAction>
+                    <x><![CDATA[632]]></x>
+                    <y><![CDATA[114]]></y>
+                    <width><![CDATA[240]]></width>
+                    <height><![CDATA[135]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[maintainaspectratio]]></scalingPolicy>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <index dynamic="true"><![CDATA[2]]></index>
+                    <fontColor dynamic="true"><![CDATA[#FFFFFF]]></fontColor>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <previewTextMode dynamic="true"><![CDATA[always]]></previewTextMode>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <previewTextEffect dynamic="true"><![CDATA[none]]></previewTextEffect>
+                    <fontFamily dynamic="true"><![CDATA[Arial]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[10]]></fontSize>
+                    <horizontalTextAlignment dynamic="true"><![CDATA[left]]></horizontalTextAlignment>
+                    <verticalTextAlignment dynamic="true"><![CDATA[top]]></verticalTextAlignment>
+                </Widget>
+            </widgets>
+        </Interface>
+        <Interface>
+            <id><![CDATA[36]]></id>
+            <version><![CDATA[1]]></version>
+            <name><![CDATA[16x9 - 3 Left]]></name>
+            <gridWidth><![CDATA[16]]></gridWidth>
+            <gridHeight><![CDATA[9]]></gridHeight>
+            <clickSoundVolume><![CDATA[1.0]]></clickSoundVolume>
+            <widgets>
+                <Widget>
+                    <id><![CDATA[32]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.MainMedia]]></widgetType>
+                    <persistCondition><![CDATA[never]]></persistCondition>
+                    <persistAction><![CDATA[replace]]></persistAction>
+                    <x><![CDATA[272]]></x>
+                    <y><![CDATA[181]]></y>
+                    <width><![CDATA[720]]></width>
+                    <height><![CDATA[405]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[scaledownmaintainaspectratio]]></scalingPolicy>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[33]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.SnuAutoLink]]></widgetType>
+                    <persistCondition><![CDATA[never]]></persistCondition>
+                    <persistAction><![CDATA[replace]]></persistAction>
+                    <x><![CDATA[32]]></x>
+                    <y><![CDATA[181]]></y>
+                    <width><![CDATA[240]]></width>
+                    <height><![CDATA[135]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[maintainaspectratio]]></scalingPolicy>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <index dynamic="true"><![CDATA[0]]></index>
+                    <fontColor dynamic="true"><![CDATA[#FFFFFF]]></fontColor>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <previewTextMode dynamic="true"><![CDATA[always]]></previewTextMode>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <previewTextEffect dynamic="true"><![CDATA[none]]></previewTextEffect>
+                    <fontFamily dynamic="true"><![CDATA[Arial]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[10]]></fontSize>
+                    <horizontalTextAlignment dynamic="true"><![CDATA[left]]></horizontalTextAlignment>
+                    <verticalTextAlignment dynamic="true"><![CDATA[top]]></verticalTextAlignment>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[34]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.SnuAutoLink]]></widgetType>
+                    <persistCondition><![CDATA[never]]></persistCondition>
+                    <persistAction><![CDATA[replace]]></persistAction>
+                    <x><![CDATA[32]]></x>
+                    <y><![CDATA[316]]></y>
+                    <width><![CDATA[240]]></width>
+                    <height><![CDATA[135]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[maintainaspectratio]]></scalingPolicy>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <index dynamic="true"><![CDATA[1]]></index>
+                    <fontColor dynamic="true"><![CDATA[#FFFFFF]]></fontColor>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <previewTextMode dynamic="true"><![CDATA[always]]></previewTextMode>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <previewTextEffect dynamic="true"><![CDATA[none]]></previewTextEffect>
+                    <fontFamily dynamic="true"><![CDATA[Arial]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[10]]></fontSize>
+                    <horizontalTextAlignment dynamic="true"><![CDATA[left]]></horizontalTextAlignment>
+                    <verticalTextAlignment dynamic="true"><![CDATA[top]]></verticalTextAlignment>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[35]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.SnuAutoLink]]></widgetType>
+                    <persistCondition><![CDATA[never]]></persistCondition>
+                    <persistAction><![CDATA[replace]]></persistAction>
+                    <x><![CDATA[32]]></x>
+                    <y><![CDATA[451]]></y>
+                    <width><![CDATA[240]]></width>
+                    <height><![CDATA[135]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[maintainaspectratio]]></scalingPolicy>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <index dynamic="true"><![CDATA[2]]></index>
+                    <fontColor dynamic="true"><![CDATA[#FFFFFF]]></fontColor>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <previewTextMode dynamic="true"><![CDATA[always]]></previewTextMode>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <previewTextEffect dynamic="true"><![CDATA[none]]></previewTextEffect>
+                    <fontFamily dynamic="true"><![CDATA[Arial]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[10]]></fontSize>
+                    <horizontalTextAlignment dynamic="true"><![CDATA[left]]></horizontalTextAlignment>
+                    <verticalTextAlignment dynamic="true"><![CDATA[top]]></verticalTextAlignment>
+                </Widget>
+            </widgets>
+        </Interface>
+        <Interface>
+            <id><![CDATA[41]]></id>
+            <version><![CDATA[1]]></version>
+            <name><![CDATA[16x9 - 3 Right]]></name>
+            <gridWidth><![CDATA[16]]></gridWidth>
+            <gridHeight><![CDATA[9]]></gridHeight>
+            <clickSoundVolume><![CDATA[1.0]]></clickSoundVolume>
+            <widgets>
+                <Widget>
+                    <id><![CDATA[37]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.MainMedia]]></widgetType>
+                    <persistCondition><![CDATA[never]]></persistCondition>
+                    <persistAction><![CDATA[replace]]></persistAction>
+                    <x><![CDATA[32]]></x>
+                    <y><![CDATA[181]]></y>
+                    <width><![CDATA[720]]></width>
+                    <height><![CDATA[405]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[scaledownmaintainaspectratio]]></scalingPolicy>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[38]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.SnuAutoLink]]></widgetType>
+                    <persistCondition><![CDATA[never]]></persistCondition>
+                    <persistAction><![CDATA[replace]]></persistAction>
+                    <x><![CDATA[752]]></x>
+                    <y><![CDATA[181]]></y>
+                    <width><![CDATA[240]]></width>
+                    <height><![CDATA[135]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[maintainaspectratio]]></scalingPolicy>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <index dynamic="true"><![CDATA[0]]></index>
+                    <fontColor dynamic="true"><![CDATA[#FFFFFF]]></fontColor>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <previewTextMode dynamic="true"><![CDATA[always]]></previewTextMode>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <previewTextEffect dynamic="true"><![CDATA[none]]></previewTextEffect>
+                    <fontFamily dynamic="true"><![CDATA[Arial]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[10]]></fontSize>
+                    <horizontalTextAlignment dynamic="true"><![CDATA[left]]></horizontalTextAlignment>
+                    <verticalTextAlignment dynamic="true"><![CDATA[top]]></verticalTextAlignment>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[39]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.SnuAutoLink]]></widgetType>
+                    <persistCondition><![CDATA[never]]></persistCondition>
+                    <persistAction><![CDATA[replace]]></persistAction>
+                    <x><![CDATA[752]]></x>
+                    <y><![CDATA[316]]></y>
+                    <width><![CDATA[240]]></width>
+                    <height><![CDATA[135]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[maintainaspectratio]]></scalingPolicy>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <index dynamic="true"><![CDATA[1]]></index>
+                    <fontColor dynamic="true"><![CDATA[#FFFFFF]]></fontColor>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <previewTextMode dynamic="true"><![CDATA[always]]></previewTextMode>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <previewTextEffect dynamic="true"><![CDATA[none]]></previewTextEffect>
+                    <fontFamily dynamic="true"><![CDATA[Arial]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[10]]></fontSize>
+                    <horizontalTextAlignment dynamic="true"><![CDATA[left]]></horizontalTextAlignment>
+                    <verticalTextAlignment dynamic="true"><![CDATA[top]]></verticalTextAlignment>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[40]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.SnuAutoLink]]></widgetType>
+                    <persistCondition><![CDATA[never]]></persistCondition>
+                    <persistAction><![CDATA[replace]]></persistAction>
+                    <x><![CDATA[752]]></x>
+                    <y><![CDATA[451]]></y>
+                    <width><![CDATA[240]]></width>
+                    <height><![CDATA[135]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[maintainaspectratio]]></scalingPolicy>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <index dynamic="true"><![CDATA[2]]></index>
+                    <fontColor dynamic="true"><![CDATA[#FFFFFF]]></fontColor>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <previewTextMode dynamic="true"><![CDATA[always]]></previewTextMode>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <previewTextEffect dynamic="true"><![CDATA[none]]></previewTextEffect>
+                    <fontFamily dynamic="true"><![CDATA[Arial]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[10]]></fontSize>
+                    <horizontalTextAlignment dynamic="true"><![CDATA[left]]></horizontalTextAlignment>
+                    <verticalTextAlignment dynamic="true"><![CDATA[top]]></verticalTextAlignment>
+                </Widget>
+            </widgets>
+        </Interface>
+    </interfaces>
+    <videos>
+        <Video>
+            <id><![CDATA[99]]></id>
+            <version><![CDATA[13]]></version>
+            <name><![CDATA[Andrew Whats Organic]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Whats Organic Video Clips\Andrew Whats Organic.mov]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[100]]></id>
+            <version><![CDATA[12]]></version>
+            <name><![CDATA[Christine Whats Organic]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Whats Organic Video Clips\Christine Whats Organic.MOV]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[101]]></id>
+            <version><![CDATA[12]]></version>
+            <name><![CDATA[Davidson Whats Organic]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Whats Organic Video Clips\Davidson Whats Organic.mov]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[102]]></id>
+            <version><![CDATA[12]]></version>
+            <name><![CDATA[Does your body good]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Whats Organic Video Clips\Does your body good.mov]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[103]]></id>
+            <version><![CDATA[12]]></version>
+            <name><![CDATA[don_community_is_all]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Whats Organic Video Clips\don_community_is_all.mov]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[104]]></id>
+            <version><![CDATA[12]]></version>
+            <name><![CDATA[don_healthy_eating]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Whats Organic Video Clips\don_healthy_eating.mov]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[105]]></id>
+            <version><![CDATA[12]]></version>
+            <name><![CDATA[Ed Lenander Whats Organic 2]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Whats Organic Video Clips\Ed Lenander Whats Organic 2.mov]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[106]]></id>
+            <version><![CDATA[12]]></version>
+            <name><![CDATA[Ed Lenander Whats Organic]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Whats Organic Video Clips\Ed Lenander Whats Organic.mov]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[107]]></id>
+            <version><![CDATA[12]]></version>
+            <name><![CDATA[Edgar Whats Organic]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Whats Organic Video Clips\Edgar Whats Organic.MOV]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[108]]></id>
+            <version><![CDATA[12]]></version>
+            <name><![CDATA[Evan Whats Organic]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Whats Organic Video Clips\Evan Whats Organic.MOV]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[109]]></id>
+            <version><![CDATA[12]]></version>
+            <name><![CDATA[Fight for whole foods]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Whats Organic Video Clips\Fight for whole foods.mov]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[110]]></id>
+            <version><![CDATA[13]]></version>
+            <name><![CDATA[Jake Whats Organic]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Whats Organic Video Clips\Jake Whats Organic.MOV]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[111]]></id>
+            <version><![CDATA[13]]></version>
+            <name><![CDATA[Nick Farmers Market]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Whats Organic Video Clips\Nick Farmers Market.MOV]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[112]]></id>
+            <version><![CDATA[13]]></version>
+            <name><![CDATA[Nick Whats Organic]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Whats Organic Video Clips\Nick Whats Organic.MOV]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[113]]></id>
+            <version><![CDATA[13]]></version>
+            <name><![CDATA[Sal Whats Organic]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Whats Organic Video Clips\Sal Whats Organic.MOV]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[114]]></id>
+            <version><![CDATA[13]]></version>
+            <name><![CDATA[Vince Whats Organic]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Whats Organic Video Clips\Vince Whats Organic.MOV]]></filename>
+        </Video>
+    </videos>
+    <sounds/>
+    <images>
+        <Image>
+            <id><![CDATA[83]]></id>
+            <version><![CDATA[11]]></version>
+            <name><![CDATA[Andrew Preview.png]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Korsakow Previews\Andrew Preview.png]]></filename>
+        </Image>
+        <Image>
+            <id><![CDATA[84]]></id>
+            <version><![CDATA[11]]></version>
+            <name><![CDATA[Christine Preview.png]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Korsakow Previews\Christine Preview.png]]></filename>
+        </Image>
+        <Image>
+            <id><![CDATA[85]]></id>
+            <version><![CDATA[11]]></version>
+            <name><![CDATA[Davidson Preview.png]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Korsakow Previews\Davidson Preview.png]]></filename>
+        </Image>
+        <Image>
+            <id><![CDATA[86]]></id>
+            <version><![CDATA[11]]></version>
+            <name><![CDATA[Does your body good preview.png]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Korsakow Previews\Does your body good preview.png]]></filename>
+        </Image>
+        <Image>
+            <id><![CDATA[87]]></id>
+            <version><![CDATA[11]]></version>
+            <name><![CDATA[Don 2 Preview.png]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Korsakow Previews\Don 2 Preview.png]]></filename>
+        </Image>
+        <Image>
+            <id><![CDATA[88]]></id>
+            <version><![CDATA[11]]></version>
+            <name><![CDATA[Don Preview.png]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Korsakow Previews\Don Preview.png]]></filename>
+        </Image>
+        <Image>
+            <id><![CDATA[89]]></id>
+            <version><![CDATA[11]]></version>
+            <name><![CDATA[Ed Lenander 1.png]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Korsakow Previews\Ed Lenander 1.png]]></filename>
+        </Image>
+        <Image>
+            <id><![CDATA[90]]></id>
+            <version><![CDATA[11]]></version>
+            <name><![CDATA[Ed Lenander 2.png]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Korsakow Previews\Ed Lenander 2.png]]></filename>
+        </Image>
+        <Image>
+            <id><![CDATA[91]]></id>
+            <version><![CDATA[11]]></version>
+            <name><![CDATA[Edgar Preview.png]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Korsakow Previews\Edgar Preview.png]]></filename>
+        </Image>
+        <Image>
+            <id><![CDATA[92]]></id>
+            <version><![CDATA[11]]></version>
+            <name><![CDATA[Evan Preview.png]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Korsakow Previews\Evan Preview.png]]></filename>
+        </Image>
+        <Image>
+            <id><![CDATA[93]]></id>
+            <version><![CDATA[11]]></version>
+            <name><![CDATA[Fight for whole foods preview.png]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Korsakow Previews\Fight for whole foods preview.png]]></filename>
+        </Image>
+        <Image>
+            <id><![CDATA[94]]></id>
+            <version><![CDATA[11]]></version>
+            <name><![CDATA[Jake Preview.png]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Korsakow Previews\Jake Preview.png]]></filename>
+        </Image>
+        <Image>
+            <id><![CDATA[95]]></id>
+            <version><![CDATA[11]]></version>
+            <name><![CDATA[Nick Farmers Market Preview.png]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Korsakow Previews\Nick Farmers Market Preview.png]]></filename>
+        </Image>
+        <Image>
+            <id><![CDATA[96]]></id>
+            <version><![CDATA[11]]></version>
+            <name><![CDATA[Nick Whats Organic Preview.png]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Korsakow Previews\Nick Whats Organic Preview.png]]></filename>
+        </Image>
+        <Image>
+            <id><![CDATA[97]]></id>
+            <version><![CDATA[11]]></version>
+            <name><![CDATA[Sal Preview.png]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Korsakow Previews\Sal Preview.png]]></filename>
+        </Image>
+        <Image>
+            <id><![CDATA[98]]></id>
+            <version><![CDATA[11]]></version>
+            <name><![CDATA[Vince Preview.png]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Korsakow Previews\Vince Preview.png]]></filename>
+        </Image>
+        <Image>
+            <id><![CDATA[269]]></id>
+            <version><![CDATA[10]]></version>
+            <name><![CDATA[Bob Cantisano Preview.png]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Korsakow Previews\Bob Cantisano Preview.png]]></filename>
+        </Image>
+        <Image>
+            <id><![CDATA[271]]></id>
+            <version><![CDATA[10]]></version>
+            <name><![CDATA[Sandra Ward.png]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Korsakow Previews\Sandra Ward.png]]></filename>
+        </Image>
+        <Image>
+            <id><![CDATA[563]]></id>
+            <version><![CDATA[5]]></version>
+            <name><![CDATA[What is Organic Splash Page 3.png]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\What is Organic Splash Page 3.png]]></filename>
+        </Image>
+        <Image>
+            <id><![CDATA[564]]></id>
+            <version><![CDATA[4]]></version>
+            <name><![CDATA[Ian Somerhalder Preview.png]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Korsakow Previews\Ian Somerhalder Preview.png]]></filename>
+        </Image>
+        <Image>
+            <id><![CDATA[565]]></id>
+            <version><![CDATA[4]]></version>
+            <name><![CDATA[Jim Leap Preview.png]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Korsakow Previews\Jim Leap Preview.png]]></filename>
+        </Image>
+        <Image>
+            <id><![CDATA[566]]></id>
+            <version><![CDATA[4]]></version>
+            <name><![CDATA[Kennedy Preview.png]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Korsakow Previews\Kennedy Preview.png]]></filename>
+        </Image>
+        <Image>
+            <id><![CDATA[567]]></id>
+            <version><![CDATA[5]]></version>
+            <name><![CDATA[Maria Rodale Preivew.png]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Korsakow Previews\Maria Rodale.png]]></filename>
+        </Image>
+        <Image>
+            <id><![CDATA[568]]></id>
+            <version><![CDATA[4]]></version>
+            <name><![CDATA[Michael Pollan.png]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Korsakow Previews\Michael Pollan.png]]></filename>
+        </Image>
+        <Image>
+            <id><![CDATA[569]]></id>
+            <version><![CDATA[4]]></version>
+            <name><![CDATA[Rebecca White Preview.png]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Korsakow Previews\Rebecca White Preview.png]]></filename>
+        </Image>
+        <Image>
+            <id><![CDATA[570]]></id>
+            <version><![CDATA[4]]></version>
+            <name><![CDATA[Sandra Ward.png]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Korsakow Previews\Sandra Ward.png]]></filename>
+        </Image>
+        <Image>
+            <id><![CDATA[571]]></id>
+            <version><![CDATA[4]]></version>
+            <name><![CDATA[Wendy Priesnitz Preview.png]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Korsakow Previews\Wendy Priesnitz Preview.png]]></filename>
+        </Image>
+        <Image>
+            <id><![CDATA[573]]></id>
+            <version><![CDATA[5]]></version>
+            <name><![CDATA[Bob Canitsano]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Korsakow SNU images\Bob Canitsano.png]]></filename>
+        </Image>
+        <Image>
+            <id><![CDATA[574]]></id>
+            <version><![CDATA[5]]></version>
+            <name><![CDATA[Ian Somerhalder]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Korsakow SNU images\Ian Somerhalder.png]]></filename>
+        </Image>
+        <Image>
+            <id><![CDATA[575]]></id>
+            <version><![CDATA[5]]></version>
+            <name><![CDATA[Jim Leap 2]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Korsakow SNU images\Jim Leap 2.png]]></filename>
+        </Image>
+        <Image>
+            <id><![CDATA[576]]></id>
+            <version><![CDATA[5]]></version>
+            <name><![CDATA[Jim Leap]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Korsakow SNU images\Jim Leap.png]]></filename>
+        </Image>
+        <Image>
+            <id><![CDATA[577]]></id>
+            <version><![CDATA[5]]></version>
+            <name><![CDATA[Kennedy SNU]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Korsakow SNU images\Kennedy SNU.png]]></filename>
+        </Image>
+        <Image>
+            <id><![CDATA[578]]></id>
+            <version><![CDATA[6]]></version>
+            <name><![CDATA[Maria Rodale 2]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Korsakow SNU images\Maria Rodale 2.png]]></filename>
+        </Image>
+        <Image>
+            <id><![CDATA[579]]></id>
+            <version><![CDATA[5]]></version>
+            <name><![CDATA[maria rodale]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Korsakow SNU images\maria rodale.png]]></filename>
+        </Image>
+        <Image>
+            <id><![CDATA[580]]></id>
+            <version><![CDATA[5]]></version>
+            <name><![CDATA[Michael Pollan 3]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Korsakow SNU images\Michael Pollan 3.png]]></filename>
+        </Image>
+        <Image>
+            <id><![CDATA[581]]></id>
+            <version><![CDATA[5]]></version>
+            <name><![CDATA[Michael Pollan 5]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Korsakow SNU images\Michael Pollan 5.png]]></filename>
+        </Image>
+        <Image>
+            <id><![CDATA[582]]></id>
+            <version><![CDATA[5]]></version>
+            <name><![CDATA[Michael Pollan Omnivores dilemna]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Korsakow SNU images\Michael Pollan Omnivores dilemna.png]]></filename>
+        </Image>
+        <Image>
+            <id><![CDATA[583]]></id>
+            <version><![CDATA[5]]></version>
+            <name><![CDATA[Michael Pollan, An Eater's Manifesto]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Korsakow SNU images\Michael Pollan, An Eater's Manifesto.png]]></filename>
+        </Image>
+        <Image>
+            <id><![CDATA[584]]></id>
+            <version><![CDATA[5]]></version>
+            <name><![CDATA[Rebecca White]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Korsakow SNU images\Rebecca White.png]]></filename>
+        </Image>
+        <Image>
+            <id><![CDATA[585]]></id>
+            <version><![CDATA[5]]></version>
+            <name><![CDATA[Sandra Ward 3]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Korsakow SNU images\Sandra Ward 3.png]]></filename>
+        </Image>
+        <Image>
+            <id><![CDATA[586]]></id>
+            <version><![CDATA[5]]></version>
+            <name><![CDATA[Wendy Priesnitz]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Korsakow SNU images\Wendy Priesnitz.png]]></filename>
+        </Image>
+        <Image>
+            <id><![CDATA[587]]></id>
+            <version><![CDATA[7]]></version>
+            <name><![CDATA[sandra ward]]></name>
+            <filename><![CDATA[C:\Users\Antonio\Desktop\Film 177 FINAL PROJECT\Whats Organic DATA\Korsakow SNU images\(720 x 405) Sunset.png]]></filename>
+        </Image>
+    </images>
+    <snus>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[Video]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[389]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[0]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[390]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[391]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[Quote]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[118]]></id>
+            <version><![CDATA[2]]></version>
+            <name><![CDATA[Andrew Whats Organic]]></name>
+            <mainMediaId><![CDATA[99]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[26]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[83]]></previewMediaId>
+            <previewText/>
+            <insertText/>
+        </Snu>
+        <Snu>
+            <id><![CDATA[125]]></id>
+            <version><![CDATA[1]]></version>
+            <name><![CDATA[Christine Whats Organic]]></name>
+            <mainMediaId><![CDATA[100]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[36]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[84]]></previewMediaId>
+            <previewText/>
+            <insertText/>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[Video]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[126]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[0]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[127]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[128]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[Quote]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+        </Snu>
+        <Snu>
+            <id><![CDATA[132]]></id>
+            <version><![CDATA[1]]></version>
+            <name><![CDATA[Davidson Whats Organic]]></name>
+            <mainMediaId><![CDATA[101]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[36]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[85]]></previewMediaId>
+            <previewText/>
+            <insertText/>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[Video]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[133]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[0]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[134]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[135]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[Quote]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+        </Snu>
+        <Snu>
+            <id><![CDATA[139]]></id>
+            <version><![CDATA[1]]></version>
+            <name><![CDATA[Does your body good]]></name>
+            <mainMediaId><![CDATA[102]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[36]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[86]]></previewMediaId>
+            <previewText/>
+            <insertText/>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[Video]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[140]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[0]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[141]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[142]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[Quote]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+        </Snu>
+        <Snu>
+            <id><![CDATA[146]]></id>
+            <version><![CDATA[1]]></version>
+            <name><![CDATA[don_community_is_all]]></name>
+            <mainMediaId><![CDATA[103]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[26]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[87]]></previewMediaId>
+            <previewText/>
+            <insertText/>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[Video]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[147]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[0]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[148]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[149]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[Quote]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+        </Snu>
+        <Snu>
+            <id><![CDATA[153]]></id>
+            <version><![CDATA[1]]></version>
+            <name><![CDATA[don_healthy_eating]]></name>
+            <mainMediaId><![CDATA[104]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[36]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[88]]></previewMediaId>
+            <previewText/>
+            <insertText/>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[Video]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[154]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[0]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[155]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[156]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[Quote]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+        </Snu>
+        <Snu>
+            <id><![CDATA[160]]></id>
+            <version><![CDATA[1]]></version>
+            <name><![CDATA[Ed Lenander Whats Organic 2]]></name>
+            <mainMediaId><![CDATA[105]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[36]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[89]]></previewMediaId>
+            <previewText/>
+            <insertText/>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[Video]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[161]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[0]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[162]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[163]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[Quote]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+        </Snu>
+        <Snu>
+            <id><![CDATA[167]]></id>
+            <version><![CDATA[1]]></version>
+            <name><![CDATA[Ed Lenander Whats Organic]]></name>
+            <mainMediaId><![CDATA[106]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[26]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[90]]></previewMediaId>
+            <previewText/>
+            <insertText/>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[Video]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[168]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[0]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[169]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[170]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[Quote]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+        </Snu>
+        <Snu>
+            <id><![CDATA[174]]></id>
+            <version><![CDATA[1]]></version>
+            <name><![CDATA[Edgar Whats Organic]]></name>
+            <mainMediaId><![CDATA[107]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[26]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[91]]></previewMediaId>
+            <previewText/>
+            <insertText/>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[Video]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[175]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[0]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[176]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[177]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[Quote]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+        </Snu>
+        <Snu>
+            <id><![CDATA[181]]></id>
+            <version><![CDATA[1]]></version>
+            <name><![CDATA[Evan Whats Organic]]></name>
+            <mainMediaId><![CDATA[108]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[26]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[92]]></previewMediaId>
+            <previewText/>
+            <insertText/>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[Video]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[182]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[0]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[183]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[184]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[Quote]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+        </Snu>
+        <Snu>
+            <id><![CDATA[218]]></id>
+            <version><![CDATA[1]]></version>
+            <name><![CDATA[Fight for whole foods]]></name>
+            <mainMediaId><![CDATA[109]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[36]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[93]]></previewMediaId>
+            <previewText/>
+            <insertText/>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[Video]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[219]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[0]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[220]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[221]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[Quote]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+        </Snu>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[Video]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[383]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[0]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[384]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[385]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[Quote]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[225]]></id>
+            <version><![CDATA[2]]></version>
+            <name><![CDATA[Jake Whats Organic]]></name>
+            <mainMediaId><![CDATA[110]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[36]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[true]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[94]]></previewMediaId>
+            <previewText/>
+            <insertText/>
+        </Snu>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[Video]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[246]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[0]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[247]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[248]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[Quote]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[232]]></id>
+            <version><![CDATA[2]]></version>
+            <name><![CDATA[Nick Farmers Market]]></name>
+            <mainMediaId><![CDATA[111]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[36]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[95]]></previewMediaId>
+            <previewText/>
+            <insertText/>
+        </Snu>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[Video]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[377]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[0]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[378]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[379]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[Quote]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[239]]></id>
+            <version><![CDATA[2]]></version>
+            <name><![CDATA[Nick Whats Organic]]></name>
+            <mainMediaId><![CDATA[112]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[41]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[96]]></previewMediaId>
+            <previewText/>
+            <insertText/>
+        </Snu>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[Video]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[365]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[0]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[366]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[367]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[Quote]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[252]]></id>
+            <version><![CDATA[2]]></version>
+            <name><![CDATA[Sal Whats Organic]]></name>
+            <mainMediaId><![CDATA[113]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[36]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[97]]></previewMediaId>
+            <previewText/>
+            <insertText/>
+        </Snu>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[Video]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[371]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[0]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[372]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[373]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[Quote]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[259]]></id>
+            <version><![CDATA[2]]></version>
+            <name><![CDATA[Vince Whats Organic]]></name>
+            <mainMediaId><![CDATA[114]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[36]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[98]]></previewMediaId>
+            <previewText/>
+            <insertText/>
+        </Snu>
+        <Snu>
+            <id><![CDATA[591]]></id>
+            <version><![CDATA[1]]></version>
+            <name><![CDATA[sandra ward]]></name>
+            <mainMediaId><![CDATA[587]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[41]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[271]]></previewMediaId>
+            <previewText><![CDATA[]]></previewText>
+            <insertText><![CDATA[]]></insertText>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[Quote]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[592]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[0]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[593]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[594]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[Video]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+        </Snu>
+        <Snu>
+            <id><![CDATA[598]]></id>
+            <version><![CDATA[1]]></version>
+            <name><![CDATA[Wendy Priesnitz]]></name>
+            <mainMediaId><![CDATA[586]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[26]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[571]]></previewMediaId>
+            <previewText><![CDATA[]]></previewText>
+            <insertText><![CDATA[]]></insertText>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[Quote]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[599]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[0]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[600]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[601]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[Video]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+        </Snu>
+        <Snu>
+            <id><![CDATA[605]]></id>
+            <version><![CDATA[1]]></version>
+            <name><![CDATA[Sandra Ward 3]]></name>
+            <mainMediaId><![CDATA[585]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[41]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[271]]></previewMediaId>
+            <previewText><![CDATA[]]></previewText>
+            <insertText><![CDATA[]]></insertText>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[Quote]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[606]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[0]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[607]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[608]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[Video]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+        </Snu>
+        <Snu>
+            <id><![CDATA[612]]></id>
+            <version><![CDATA[1]]></version>
+            <name><![CDATA[Rebecca White]]></name>
+            <mainMediaId><![CDATA[584]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[26]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[569]]></previewMediaId>
+            <previewText><![CDATA[]]></previewText>
+            <insertText><![CDATA[]]></insertText>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[Quote]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[613]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[0]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[614]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[615]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[Video]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+        </Snu>
+        <Snu>
+            <id><![CDATA[619]]></id>
+            <version><![CDATA[1]]></version>
+            <name><![CDATA[Michael Pollan, An Eater's Manifesto]]></name>
+            <mainMediaId><![CDATA[583]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[36]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[568]]></previewMediaId>
+            <previewText><![CDATA[]]></previewText>
+            <insertText><![CDATA[]]></insertText>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[Quote]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[620]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[0]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[621]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[622]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[Video]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+        </Snu>
+        <Snu>
+            <id><![CDATA[626]]></id>
+            <version><![CDATA[1]]></version>
+            <name><![CDATA[Michael Pollan Omnivores dilemna]]></name>
+            <mainMediaId><![CDATA[582]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[6]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[568]]></previewMediaId>
+            <previewText><![CDATA[]]></previewText>
+            <insertText><![CDATA[]]></insertText>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[Quote]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[627]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[0]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[628]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[629]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[Video]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+        </Snu>
+        <Snu>
+            <id><![CDATA[633]]></id>
+            <version><![CDATA[1]]></version>
+            <name><![CDATA[Michael Pollan 5]]></name>
+            <mainMediaId><![CDATA[581]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[41]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[568]]></previewMediaId>
+            <previewText><![CDATA[]]></previewText>
+            <insertText><![CDATA[]]></insertText>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[Quote]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[634]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[0]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[635]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[636]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[Video]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+        </Snu>
+        <Snu>
+            <id><![CDATA[640]]></id>
+            <version><![CDATA[1]]></version>
+            <name><![CDATA[Michael Pollan 3]]></name>
+            <mainMediaId><![CDATA[580]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[41]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[568]]></previewMediaId>
+            <previewText><![CDATA[]]></previewText>
+            <insertText><![CDATA[]]></insertText>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[Quote]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[641]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[0]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[642]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[643]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[Video]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+        </Snu>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[Quote]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[820]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[0]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[821]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[822]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[Video]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[647]]></id>
+            <version><![CDATA[2]]></version>
+            <name><![CDATA[Maria Rodale 2]]></name>
+            <mainMediaId><![CDATA[578]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[41]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[567]]></previewMediaId>
+            <previewText><![CDATA[]]></previewText>
+            <insertText><![CDATA[]]></insertText>
+        </Snu>
+        <Snu>
+            <id><![CDATA[654]]></id>
+            <version><![CDATA[1]]></version>
+            <name><![CDATA[maria rodale]]></name>
+            <mainMediaId><![CDATA[579]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[36]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[567]]></previewMediaId>
+            <previewText><![CDATA[]]></previewText>
+            <insertText><![CDATA[]]></insertText>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[Quote]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[655]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[0]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[656]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[657]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[Video]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+        </Snu>
+        <Snu>
+            <id><![CDATA[661]]></id>
+            <version><![CDATA[1]]></version>
+            <name><![CDATA[Kennedy SNU]]></name>
+            <mainMediaId><![CDATA[577]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[41]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[566]]></previewMediaId>
+            <previewText><![CDATA[]]></previewText>
+            <insertText><![CDATA[]]></insertText>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[Quote]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[662]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[0]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[663]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[664]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[Video]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+        </Snu>
+        <Snu>
+            <id><![CDATA[668]]></id>
+            <version><![CDATA[1]]></version>
+            <name><![CDATA[Jim Leap]]></name>
+            <mainMediaId><![CDATA[576]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[26]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[565]]></previewMediaId>
+            <previewText><![CDATA[]]></previewText>
+            <insertText><![CDATA[]]></insertText>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[Quote]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[669]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[0]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[670]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[671]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[Video]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+        </Snu>
+        <Snu>
+            <id><![CDATA[675]]></id>
+            <version><![CDATA[1]]></version>
+            <name><![CDATA[Jim Leap 2]]></name>
+            <mainMediaId><![CDATA[575]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[41]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[565]]></previewMediaId>
+            <previewText><![CDATA[]]></previewText>
+            <insertText><![CDATA[]]></insertText>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[Quote]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[676]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[0]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[677]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[678]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[Video]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+        </Snu>
+        <Snu>
+            <id><![CDATA[682]]></id>
+            <version><![CDATA[1]]></version>
+            <name><![CDATA[Ian Somerhalder]]></name>
+            <mainMediaId><![CDATA[574]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[36]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[564]]></previewMediaId>
+            <previewText><![CDATA[]]></previewText>
+            <insertText><![CDATA[]]></insertText>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[Quote]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[683]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[0]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[684]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[685]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[Video]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+        </Snu>
+        <Snu>
+            <id><![CDATA[689]]></id>
+            <version><![CDATA[1]]></version>
+            <name><![CDATA[Bob Canitsano]]></name>
+            <mainMediaId><![CDATA[573]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[26]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[269]]></previewMediaId>
+            <previewText><![CDATA[]]></previewText>
+            <insertText><![CDATA[]]></insertText>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[Quote]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[690]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[0]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[691]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[692]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[Video]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+        </Snu>
+    </snus>
+    <patterns/>
+    <texts/>
+    <resources>
+        <Folder name="/">
+            <Folder name="Interfaces">
+                <Folder name="16x9">
+                    <Resource class="org.korsakow.resource.Interface"
+                        id="31" name="16x9 - 3 Above"/>
+                    <Resource class="org.korsakow.resource.Interface"
+                        id="26" name="16x9 - 3 Below"/>
+                    <Resource class="org.korsakow.resource.Interface"
+                        id="36" name="16x9 - 3 Left"/>
+                    <Resource class="org.korsakow.resource.Interface"
+                        id="41" name="16x9 - 3 Right"/>
+                </Folder>
+            </Folder>
+            <Folder name="Movie Clips">
+                <Resource class="org.korsakow.resource.Snu" id="118" name="Andrew Whats Organic"/>
+                <Resource class="org.korsakow.resource.Snu" id="125" name="Christine Whats Organic"/>
+                <Resource class="org.korsakow.resource.Snu" id="132" name="Davidson Whats Organic"/>
+                <Resource class="org.korsakow.resource.Snu" id="139" name="Does your body good"/>
+                <Resource class="org.korsakow.resource.Snu" id="146" name="don_community_is_all"/>
+                <Resource class="org.korsakow.resource.Snu" id="153" name="don_healthy_eating"/>
+                <Resource class="org.korsakow.resource.Snu" id="167" name="Ed Lenander Whats Organic"/>
+                <Resource class="org.korsakow.resource.Snu" id="160" name="Ed Lenander Whats Organic 2"/>
+                <Resource class="org.korsakow.resource.Snu" id="174" name="Edgar Whats Organic"/>
+                <Resource class="org.korsakow.resource.Snu" id="181" name="Evan Whats Organic"/>
+                <Resource class="org.korsakow.resource.Snu" id="218" name="Fight for whole foods"/>
+                <Resource class="org.korsakow.resource.Snu" id="225" name="Jake Whats Organic"/>
+                <Resource class="org.korsakow.resource.Snu" id="232" name="Nick Farmers Market"/>
+                <Resource class="org.korsakow.resource.Snu" id="239" name="Nick Whats Organic"/>
+                <Resource class="org.korsakow.resource.Snu" id="252" name="Sal Whats Organic"/>
+                <Resource class="org.korsakow.resource.Snu" id="259" name="Vince Whats Organic"/>
+            </Folder>
+            <Folder name="Previews">
+                <Resource class="org.korsakow.resource.Image" id="83" name="Andrew Preview.png"/>
+                <Resource class="org.korsakow.resource.Image" id="84" name="Christine Preview.png"/>
+                <Resource class="org.korsakow.resource.Image" id="85" name="Davidson Preview.png"/>
+                <Resource class="org.korsakow.resource.Image" id="86" name="Does your body good preview.png"/>
+                <Resource class="org.korsakow.resource.Image" id="87" name="Don 2 Preview.png"/>
+                <Resource class="org.korsakow.resource.Image" id="88" name="Don Preview.png"/>
+                <Resource class="org.korsakow.resource.Image" id="89" name="Ed Lenander 1.png"/>
+                <Resource class="org.korsakow.resource.Image" id="90" name="Ed Lenander 2.png"/>
+                <Resource class="org.korsakow.resource.Image" id="91" name="Edgar Preview.png"/>
+                <Resource class="org.korsakow.resource.Image" id="92" name="Evan Preview.png"/>
+                <Resource class="org.korsakow.resource.Image" id="93" name="Fight for whole foods preview.png"/>
+                <Resource class="org.korsakow.resource.Image" id="94" name="Jake Preview.png"/>
+                <Resource class="org.korsakow.resource.Image" id="571" name="Wendy Priesnitz Preview.png"/>
+                <Resource class="org.korsakow.resource.Image" id="570" name="Sandra Ward.png"/>
+                <Resource class="org.korsakow.resource.Image" id="569" name="Rebecca White Preview.png"/>
+                <Resource class="org.korsakow.resource.Image" id="568" name="Michael Pollan.png"/>
+                <Resource class="org.korsakow.resource.Image" id="567" name="Maria Rodale Preivew.png"/>
+                <Resource class="org.korsakow.resource.Image" id="566" name="Kennedy Preview.png"/>
+                <Resource class="org.korsakow.resource.Image" id="565" name="Jim Leap Preview.png"/>
+                <Resource class="org.korsakow.resource.Image" id="564" name="Ian Somerhalder Preview.png"/>
+                <Resource class="org.korsakow.resource.Image" id="95" name="Nick Farmers Market Preview.png"/>
+                <Resource class="org.korsakow.resource.Image" id="96" name="Nick Whats Organic Preview.png"/>
+                <Resource class="org.korsakow.resource.Image" id="97" name="Sal Preview.png"/>
+                <Resource class="org.korsakow.resource.Image" id="98" name="Vince Preview.png"/>
+                <Resource class="org.korsakow.resource.Image" id="271" name="Sandra Ward.png"/>
+                <Resource class="org.korsakow.resource.Image" id="269" name="Bob Cantisano Preview.png"/>
+            </Folder>
+            <Folder name="Quote SNUS">
+                <Resource class="org.korsakow.resource.Snu" id="591" name="sandra ward"/>
+                <Resource class="org.korsakow.resource.Snu" id="598" name="Wendy Priesnitz"/>
+                <Resource class="org.korsakow.resource.Snu" id="605" name="Sandra Ward 3"/>
+                <Resource class="org.korsakow.resource.Snu" id="612" name="Rebecca White"/>
+                <Resource class="org.korsakow.resource.Snu" id="619" name="Michael Pollan, An Eater's Manifesto"/>
+                <Resource class="org.korsakow.resource.Snu" id="626" name="Michael Pollan Omnivores dilemna"/>
+                <Resource class="org.korsakow.resource.Snu" id="633" name="Michael Pollan 5"/>
+                <Resource class="org.korsakow.resource.Snu" id="640" name="Michael Pollan 3"/>
+                <Resource class="org.korsakow.resource.Snu" id="654" name="maria rodale"/>
+                <Resource class="org.korsakow.resource.Snu" id="647" name="Maria Rodale 2"/>
+                <Resource class="org.korsakow.resource.Snu" id="661" name="Kennedy SNU"/>
+                <Resource class="org.korsakow.resource.Snu" id="668" name="Jim Leap"/>
+                <Resource class="org.korsakow.resource.Snu" id="675" name="Jim Leap 2"/>
+                <Resource class="org.korsakow.resource.Snu" id="682" name="Ian Somerhalder"/>
+                <Resource class="org.korsakow.resource.Snu" id="689" name="Bob Canitsano"/>
+            </Folder>
+            <Resource class="org.korsakow.resource.Image" id="563" name="What is Organic Splash Page 3.png"/>
+            <Resource class="org.korsakow.resource.Interface" id="6" name="4x3 - 3 Below"/>
+        </Folder>
+    </resources>
+</korsakow>

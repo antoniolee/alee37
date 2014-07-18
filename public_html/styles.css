@@ -1,0 +1,80 @@
+#main {
+
+}
+
+html, body {height: 100%; margin: 0}
+
+.footer
+{
+	position: relative;
+	font-size: 10px;
+	text-align: center;
+	padding-bottom: 15px;
+	padding-top: 30px;
+	clear:both;
+}
+
+.navbar-brand{
+    font-family: "SourceSans";
+    font-style: italic;
+}
+
+@font-face{
+    font-family: 'Quicksand';
+    src: url("fonts/Quicksand-Regular.otf");
+}
+
+@font-face{
+    font-family: 'Lobster';
+    src: url("fonts/LobsterTwo-Regular.otf");
+}
+
+@font-face{
+    font-family: 'CaviarDreams';
+    src: url("fonts/CaviarDreams.ttf");
+}
+
+@font-face{
+    font-family: 'Chunkfive';
+    src: url("fonts/Chunkfive.otf");
+}
+
+@font-face{
+    font-family: 'SourceSans';
+    src: url("fonts/SourceSansPro-Regular.otf");
+}
+
+@font-face{
+    font-family: 'DroidSans';
+    src: url("fonts/DroidSans.ttf");
+}
+
+.QuickSand{
+    font-size: 25px;
+    font-family: 'SourceSans';
+}
+
+.fontLob{
+    font-size: 50px;
+    font-family:"Lobster";
+    font-style:italic;
+}
+
+@media screen and (max-width: 1110px) {
+    .fontLob { font-size:40px;}
+    .QuickSand { font-size: 20px;}
+ }
+
+  @media screen and (max-width: 900px) {
+    .fontLob { font-size: 30px;}
+    .QuickSand { font-size: 18px;}
+
+ @media screen and (max-width: 580px) {
+    .fontLob { font-size: 26px;}
+ }
+
+@media screen and (max-width: 480px) {
+    .fontLob { font-size:20px;}
+    .QuickSand { font-size: 15px}
+ }
+
